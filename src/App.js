@@ -9,7 +9,7 @@ import Peer from "simple-peer";
 import io from "socket.io-client";
 import "./App.css";
 
-const socket = io.connect(process.env.REACT_APP_BACKEND_URL);
+const socket = io.connect(process.env.REACT_APP_BACKEND_URLL);
 function App() {
   const [me, setMe] = useState("");
   const [stream, setStream] = useState();
